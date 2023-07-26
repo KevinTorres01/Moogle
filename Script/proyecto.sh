@@ -2,7 +2,7 @@
 
 # Función para mostrar el menú
 mostrar_menu() {
-    echo " Bienvenido, por favor seleccione una opción para avanzar
+    echo " Bienvenido, por favor seleccione una opción para avanzar "
     echo "1. run"
     echo "2. report"
     echo "3. slides"
