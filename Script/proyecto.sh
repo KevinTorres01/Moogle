@@ -89,6 +89,19 @@ while [ $opcion -ne 7 ]; do
             cd ..
             cd Presentación
             rm -f *.log *.gz *.aux *.nav *.snm *.toc *.pdf
+            
+            
+            cd ..
+            cd MoogleEngine
+            rm -r bin
+            rm -r obj
+            
+            
+            cd ..
+            cd MoogleServer
+            rm -r bin
+            rm -r obj
+            
             echo "Todo limpio"
             ;;
         7)
